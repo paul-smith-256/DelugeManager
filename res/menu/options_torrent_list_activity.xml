@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto" >
+
+    <item
+        android:id="@+id/haveConnection"
+        android:icon="@drawable/ic_green_circle"
+        android:title="@string/connected"
+        android:orderInCategory="0"
+        app:showAsAction="always">
+    </item>
+    
+    <item
+        android:id="@+id/sorting"
+        android:icon="@drawable/ic_sort"
+        android:title="@string/sorting"
+        android:orderInCategory="1"
+        app:showAsAction="ifRoom">
+        <menu>
+            <group
+                android:checkableBehavior="single"
+                android:orderInCategory="2" >
+                <item
+                    android:id="@+id/sortByName"
+                    android:orderInCategory="3"
+                    android:title="@string/byName" >
+                </item>
+                <item
+                    android:id="@+id/sortBySize"
+                    android:orderInCategory="4"
+                    android:title="@string/bySize" >
+                </item>
+                <item
+                    android:id="@+id/sortbyQueue"
+                    android:orderInCategory="5"
+                    android:title="@string/byQueue" >
+                </item>
+                <item
+                    android:id="@+id/sortByEta"
+                    android:orderInCategory="6"
+                    android:title="@string/byEta" >
+                </item>
+            </group>
+
+            <item
+                android:id="@+id/sortDescending"
+                android:checkable="true"
+                android:orderInCategory="7"
+                android:title="@string/sortDescending" >
+            </item>
+        </menu>
+    </item>
+
+</menu>

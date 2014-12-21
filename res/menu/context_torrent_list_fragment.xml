@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/pause"
+        android:orderInCategory="0"
+        android:title="@string/pause" />
+    <item
+        android:id="@+id/resume"
+        android:orderInCategory="1"
+        android:title="@string/resume" />
+    <item 
+        android:id="@+id/queueUp"
+        android:orderInCategory="2"
+        android:title="@string/queueUp" />
+    <item 
+        android:id="@+id/queueDown"
+        android:orderInCategory="3"
+        android:title="@string/queueDown" />
+    <item 
+        android:id="@+id/remove"
+        android:orderInCategory="4"
+        android:title="@string/remove" />
+
+</menu>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/priorityDontDownload"
+        android:orderInCategory="0"
+        android:title="@string/priorityDontDownload">
+    </item>
+    <item
+        android:id="@+id/priorityNormal"
+        android:orderInCategory="1"
+        android:title="@string/priorityNormal">
+    </item>
+    <item
+        android:id="@+id/priorityHigh"
+        android:orderInCategory="2"
+        android:title="@string/priorityHigh">
+    </item>
+    <item
+        android:id="@+id/priorityMaximum"
+        android:orderInCategory="3"
+        android:title="@string/priorityMaximum">
+    </item>
+
+</menu>

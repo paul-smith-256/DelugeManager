@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="applicationName">Deluge Manager</string>
+    <string name="password">Password</string>
+    <string name="login">Login</string>
+    <string name="hostname">Hostname</string>
+    <string name="port">Port</string>
+    <string name="go">Go!</string>
+    <string name="reasonCannotOpenConnection">Cannot open connection</string>
+    <string name="reasonWrongServerVersion">Client is not compatible with this server</string>
+    <string name="reasonWrongLoginOrPassword">Wrong login or password</string>
+    <string name="reasonUnknown">Unknown error</string>
+    <string name="forget">Forget</string>
+    <string name="torrentList">Torrents</string>
+    <string name="torrentSizeEtaLabel">Size: %1$s ETA: %2$s</string>
+    <string name="torrentUpDownLabel">Down: %1$s Up: %2$s</string>
+    <string name="torrentQueueLabel">Queue: %d</string>
+    <string name="all">All</string>
+    <string name="downloading">Download</string>
+    <string name="finished">Finished</string>
+    <string name="seeding">Seeding</string>
+    <string name="queued">Queued</string>
+    <string name="error">Error</string>
+    <string name="connected">Connected</string>
+    <string name="disconnected">Disconnected</string>
+    <string name="pause">Pause</string>
+    <string name="resume">Resume</string>
+    <string name="queueUp">Queue up</string>
+    <string name="queueDown">Queue down</string>
+    <string name="remove">Remove</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="cancel">Cancel</string>
+    <string name="removeContent">Remove content?</string>
+    <string name="sorting">Sorting</string>
+    <string name="sortDescending">Descending</string>
+    <string name="byName">Name</string>
+    <string name="bySize">Size</string>
+    <string name="byQueue">Queue</string>
+    <string name="byProgress">Progress</string>
+    <string name="byEta">ETA</string>
+    <string name="byCountry">Country</string>
+    <string name="bySeed">Seed</string>
+    <string name="byClient">Client</string>
+    <string name="byUpSpeed">Up speed</string>
+    <string name="byDownSpeed">Down speed</string>
+    <string name="sessionStatusLabel">Up: %1$s %2$s\nDown: %3$s %4$s</string>
+    <string name="torrentCardTitle">Torrent Card</string>
+    <string name="fileInfoFormat">Size: %1$s Priority: %2$s</string>
+    <string name="files">Files</string>
+    <string name="priorityDontDownload">Don\'t download</string>
+    <string name="priorityNormal">Normal priority</string>
+    <string name="priorityHigh">High priority</string>
+    <string name="priorityMaximum">Maximum priority</string>
+	<string name="peerUpDownSpeed">Up: %1$s Down %2$s</string>
+	<string name="peers">Peers</string>
+    
+</resources>
